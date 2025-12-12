@@ -1,162 +1,206 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Welcome to My website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
-<link rel="stylesheet" type="text/css" href="css/line-icons.css">
 <body>
-	<header id="#home">
-	<nav class="navbar">
-	<div class="container">	
-		<a href="index.html" class="navbar-brand">About me.</a>  
-          
-	</div>
-	</nav>
-	</header>
-	
-<div class="container">
-<div class="row">
-	<div class="col-lg-6 col-md-6 banner">
-<h1 class="banner-title">Hello</h1>
-<h2 class="banner-name">I'm Manu Mahadevu</h2>
-<h6 class="banner-des">Web & Software developer</h6>
-<a href="#contact"><button class="btn-contact">Let's talk</button></a>
+
+<!-- ================= HEADER ================ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ================= HERO SECTION ================= -->
+<div class="p-5 text-center bg-image hero-banner" 
+     style="background-image: url('banner.png'); height: 100vh; background-size: cover; background-position: center; background-repeat: no-repeat;">
+  
+  <div class="mask" style="background-color: rgba(0, 0, 0, 0.65); height:100%;">
+    <div class="d-flex justify-content-center align-items-center h-100">
+      <div class="text-white">
+        
+        <h1 class="mb-3 fw-bold display-4" style="color: #00e5ff;">
+          Hi, I'm <span class="text-white">Manu</span>
+        </h1>
+
+        <h4 class="mb-4" style="color : #ffba5f;">
+          Senior DevOps Engineer • Multi-Cloud • CI/CD • Kubernetes • Terraform
+        </h4>
+
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<div class="col-lg-6 col-md-6">
-	<div class="container menu">
-		<a href="#profile"><button class="btn-menu" >Profile</button></a>
-		<a href="#education"><button class="btn-menu">Education</button></a>
-		<a href="#skill"><button class="btn-menu">Skills</button></a>
-		<a href="#experience"><button class="btn-menu">Experience</button></a>
-	</div>
-	<img  class="img-fluid" src="img1.jpg">
-	
-	</div>
-</div>
-</div>
-<div class="container bio" id="profile">
-<h2 style="padding-top: 20px;">Profile</h2>
-<div class="row">
-<div class="col-lg-6 ">
-	<center>
-	<img class="img-thumbnail" src="img/profile.jpg" style="border-radius: 80px; height: 350px;"></center> 
-</div>	
-<div class="col-lg-6 col-md-6">
-<p>I'm a web & software developer from Bangalore.<br>
-I aim to make a diffrence throught my creative solution.
-</p>
-<p>
-	Worked with diffrent team to create user-friendly application interface and websites for customer.
-</p>
-<span> Name: Manu</span><br>
-<span>Gender: Male</span><br>
-<span>Phone Number: +91-9066480788</span><br>
-<span>Email: <a href="mailto:manu1996.11@gmail.com">manu1996.11@gmail.com</a></span><br>
-<span>Skype: manu111996</span><br>
-<span>Linkedin:<a href="https://www.linkedin.com/in/manu-m-04b36944/">https://www.linkedin.com/in/manu-m-04b36944</a></span><br>
-<br>
-<a href="mailto:manu1996.11@gmail.com"><button>Hire Me!</button></a>
-</div>
-</div>
-</div>
-<!--Eduction block start-->
-<div class="container education" id="education">
-	<h2 style="padding-top: 20px;">Education</h2>
-<div class="col-lg-12 col-md-12">
-<div class="row">
-<div class="col-lg-4">
-<div class="edu">
-<span><i class="lni-calendar"></i> 2013 - 2016</span><br>
-<span><i class="lni-book"></i>B.C.A(Bachlore of Computer science)</span><br>	
-<span><i class="lni-apartment"></i> South East Asian College of Arts, Commerce and Science</span>
-<span> (Bangalore University)</span>
-</div>
-</div>
-<div class="col-lg-4">
-<div class="edu">
-<span><i class="lni-calendar"></i> 2011 - 2013</span><br>
-<span><i class="lni-book"></i>P.U.C</span><br>	
-<span><i class="lni-apartment"></i> S.M.S.G Jain College</span>
-<span> (Karnataka State Board)</span>
-</div>
-</div>
-<div class="col-lg-4">
-<div class="edu">
-<span><i class="lni-calendar"></i> 2010</span><br>
-<span><i class="lni-book"></i>S.S.L.C</span><br>	
-<span><i class="lni-apartment"></i> Sri Ramakrishna Education Socity</span>
-<span> (Karnataka State Board)</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!-- Educaiton block end-->
-<!-- Skills block start-->
-<div class="container skill" id="skill">
-<h2 style="padding-top: 20px;">Skills</h2>
-<div> 
-<b>Programming language:</b><br>
-	C,C++,Java,Python, HTML, CSS, Javascript, VB, PHP.<br>
-<b>IDE Used:</b><br>
-Notepad++, Sublime, Microsoft Visual code editor<br>
-<b>Cloud used:</b><br>
-AWS, Azure<br>
-<b>Open source platform used:</b><br/>Magento, Moodle, Opencart, Wordpress, Oddo, Mautic<br>
-<b>Graphics tools used:</b><br>Adobe Photoshop, Coraldraw, Captivate, After effect<br>
-<b>Frameworks used:</b><br>Bootstrap, django, Angular<br>
-<b>Trainings:</b><br>
-Redhat, Windows server 2012 R2, CCNA.
-</div>
-</div>
-<!--Skills block end-->
-<!--Works start-->
-<div class="container education">
-	<h2 style="padding-top: 20px;">My Works</h2>
-<div class="col-lg-12 col-md-12">
-<div class="row">
-<div class="col-lg-4">
-<div class="edu">
-<a href="http://autocomponents.co.in/" target="_blank"><img class="img-thumbnail" src="img/Autocomponents.png"></a>
-</div>
-</div>
-<div class="col-lg-4">
-<div class="edu">
-<a href="http://aceproduct.co.in/" target="_blank"><img class="img-thumbnail" src="img/Aceproduct.png"></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<!--Works end-->
-<!-- experience start-->
-<div class="container experience" id="experience">
-<h2 style="padding-top: 20px;"> Experience </h2>
-<span >Cosmogenic IT solution (Aug 2016 - Jun 2017)
-<b>Designation:</b> Network engineer.
-</span><br>
-<span >Pheme Software Pvt Ltd (Nov 2017 - present
-<b>Designation: </b>Team Lead.
-</span>
-</div>
-<!-- experience end-->
-<!-- contact stat-->
-<div class="container contact" id="contact">
-<h2 style="padding-top: 20px;"> Contact Me </h2>
-<span>
-	<i class="lni-phone-handset"></i> 9066480788
-</span><br>
-<span><i class="lni-envelope "></i> manu1996.11@gmail.com</span><br>
-<span><i class="lni-linkedin "></i> <a href="https://www.linkedin.com/in/manu-m-04b36944/">https://www.linkedin.com/in/manu-m-04b36944</a> </span>
-</div>
-<!--contact end-->
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">About Me</h2>
+    <p class="lead">
+      DevOps Engineer with 4+ years of real-world DevOps experience and 7+ years in IT, specializing in AWS, Azure,
+      CI/CD, Kubernetes, automation, IaC, and cloud monitoring. Experienced in optimizing performance, reducing cost,
+      and implementing scalable infrastructures for enterprise applications.
+    </p>
+  </div>
+</section>
 
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-dark text-center">Technical Skills</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <h5 class="skill-category">Cloud</h5>
+        <ul>
+          <li>AWS (EC2, S3, VPC, IAM, CloudWatch)</li>
+          <li>Azure (ARM, AKS, Monitor)</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="skill-category">DevOps Tools</h5>
+        <ul>
+          <li>Jenkins, GitLab CI, Azure DevOps</li>
+          <li>Docker, Kubernetes, Helm</li>
+          <li>SonarQube, Postman</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h5 class="skill-category">Automation & Scripting</h5>
+        <ul>
+          <li>Terraform, Ansible</li>
+          <li>Bash, Python</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <!-- Job 1 -->
+    <div class="exp-box">
+      <h4>Sr. DevOps Engineer — Frontier Business System (Feb 2025 – Present)</h4>
+      <ul>
+        <li>Built multi-cloud CI/CD pipelines using Azure DevOps, Jenkins, AWS CodePipeline</li>
+        <li>Automated AWS deployments using CodeCommit → CodeBuild → CodeDeploy</li>
+        <li>Integrated SonarQube for automated code-quality analysis</li>
+        <li>Led cloud architecture discussions & infrastructure audits</li>
+        <li>Performed cloud cost optimization & performance improvements</li>
+      </ul>
+    </div>
+
+    <!-- Job 2 -->
+    <div class="exp-box">
+      <h4>DevOps Engineer — Rapyder Cloud Solutions (May 2023 – Feb 2025)</h4>
+      <ul>
+        <li>Designed IaC solutions using Terraform</li>
+        <li>Migrated 250+ servers from Oracle Cloud to Azure</li>
+        <li>Modernized microservices to Kubernetes (30% reliability improvement)</li>
+        <li>Developed automated scripts with Ansible & Shell</li>
+        <li>Improved system reliability by 25% using Grafana & Azure Monitor</li>
+      </ul>
+    </div>
+
+    <!-- Job 3 -->
+    <div class="exp-box">
+      <h4>Project Manager — Pheme Software (2019–2022)</h4>
+      <ul>
+        <li>Led development of LMS, online exams & admission systems</li>
+        <li>Improved user engagement by 100% using UI/UX optimization</li>
+        <li>Mentored 30+ students on real projects</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section id="certifications" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title text-center text-white">Certifications</h2>
+
+    <div class="row justify-content-center mt-4">
+
+      <!-- AZ-104 -->
+      <div class="col-md-3 col-6 mb-4">
+        <div class="cert-card p-3">
+          <img src="https://images.credly.com/size/680x680/images/336eebfc-0ac3-4553-9a67-b402f491f185/azure-administrator-associate-600x600.png" 
+               class="img-fluid cert-badge" alt="AZ-104 Badge">
+          <h6 class="text-light mt-2">Azure Administrator Associate (AZ-104)</h6>
+        </div>
+      </div>
+
+      <!-- AZ-204 -->
+      <div class="col-md-3 col-6 mb-4">
+        <div class="cert-card p-3">
+          <img src="https://miro.medium.com/0*VVEo1iws2dGD3dhR.png"
+               class="img-fluid cert-badge" alt="AZ-204 Badge">
+          <h6 class="text-light mt-2">Azure Developer Associate (AZ-204)</h6>
+        </div>
+      </div>
+
+      <!-- AZ-400 -->
+      <div class="col-md-3 col-6 mb-4">
+        <div class="cert-card p-3">
+          <img src="https://images.credly.com/images/c3ab66f8-5d59-4afa-a6c2-0ba30a1989ca/twitter_thumb_201604_CERT-Expert-DevOps-Engineer-600x600.png"
+               class="img-fluid cert-badge" alt="AZ-400 Badge">
+          <h6 class="text-light mt-2">DevOps Engineer Expert (AZ-400)</h6>
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<!--<section id="contact" class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <strong>[your-email@example.com]</strong></p>
+    <p>LinkedIn: <strong>[your-linkedin-url]</strong></p>
+  </div>
+</section>
+-->
+
+<!-- Footer -->
+<footer class="text-center py-3 bg-dark text-light">
+  </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

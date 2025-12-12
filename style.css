@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background: url(banner.png) center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+.hero-banner {
+    position: relative;
+    width: 100%;
+}
+
+.hero-banner h1 {
+    text-shadow: 0 0 12px rgba(0,0,0,0.8);
+}
+
+.hero-banner h4 {
+    text-shadow: 0 0 8px rgba(0,0,0,0.7);
+}
+
+/* SECTION TITLES */
+.section-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* SKILLS SECTION */
+#skills {
+    background: #d1d1d1;
+}
+
+.skill-category {
+    color: #0d6efd;
+    font-weight: bold;
+}
+/*certificate section*/
+.cert-card {
+    background: #1e293b;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    background: #0f172a;
+}
+
+.cert-badge {
+    max-height: 120px;
+    object-fit: contain;
+}
+
+/* EXPERIENCE BOX */
+.exp-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border-left: 5px solid #0d6efd;
+}
+
+/* CERTIFICATIONS */
+#certifications {
+    background: #1e293b;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
